@@ -21,6 +21,12 @@ Build inline with Android
 1. Sync this repo to `$GAPPS_PATH` where `$GAPPS_PATH` is the path to this repo
 2. Include `$GAPPS_PATH/$ARCH/$ARCH-vendor.mk` where `$ARCH` is arm, or arm64 depending on the device's architecture
 
+Example:
+
+`GAPPS_ARCH := arm`
+
+`$(call inherit-product, vendor/gapps_tv/$(GAPPS_ARCH)/$(GAPPS_ARCH)-vendor.mk)`
+
 Thanks and Credits
 -------------------
 
