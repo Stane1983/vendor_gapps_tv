@@ -14,6 +14,7 @@ PRODUCT_PACKAGES += \
     GoogleFeedback \
     GoogleServicesFramework \
     GoogleTTS \
+    YouTubeLeanback \
     Katniss \
     PrebuiltGmsCorePano \
     SetupWraithPrebuilt \

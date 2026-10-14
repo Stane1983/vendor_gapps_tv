@@ -3,6 +3,18 @@
 soong_namespace {
 }
 
+android_app_import {
+    name: "LatinIMEGoogleTvPrebuilt",
+    owner: "gapps_tv",
+    apk: "proprietary/product/app/LatinIMEGoogleTvPrebuilt/LatinIMEGoogleTvPrebuilt.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
+
 prebuilt_etc {
     name: "default-atv-permissions.xml",
     src: "proprietary/product/etc/default-permissions/default-atv-permissions.xml",

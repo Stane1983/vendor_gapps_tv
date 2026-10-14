@@ -5,6 +5,7 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
 PRODUCT_PACKAGES += \
+    LatinIMEGoogleTvPrebuilt \
     default-atv-permissions.xml \
     gapps.rc \
     google-hiddenapi-package-whitelist.xml \
